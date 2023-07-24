@@ -1,0 +1,143 @@
+html{
+    font-family: Roboto,sans-serif;
+    font-size: x-large;
+    background-color: ffffff ;
+    color: black !important;
+    background-color: rgb(249, 250, 251);
+}
+.right{
+    float: right;
+    padding-left: 18px;
+    height: 100vh;
+    margin: 0;
+    width: 60%;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body * {
+    margin: 0;
+    padding: 0;
+  }
+body {
+    margin: 0;
+    padding: 0;
+}
+.text{
+    
+    height: 40%;
+    width: 100%;
+    text-align: left 
+    
+}
+#text{
+    padding-top: 80px;
+}
+p{
+    padding-left: 35px;
+}
+.input{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+.form {
+    display: flex;
+    flex-flow: row wrap;
+    gap :30px;
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    
+
+}
+button{
+    
+    top: 70%;
+    left: 39.95%;
+    width: 200px;
+    height: 40px; 
+    background-color:rgb(151, 185, 122);
+    border:0px;
+    color:white;
+    border-radius :5px;
+    font-size: medium 
+}
+form{
+    background-color: white;
+    
+}
+input{
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#Under{
+    background-color: white;
+    height: 10vh;
+    padding: 0%;
+    font-size: medium;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.left{
+    float: left;
+    height: 100vh;
+    margin: 0;
+    width: 39%;
+}
+.pic {
+    background-image: url('mate.png'); /* Ustaw obrazek "mate.png" jako tło */
+  background-size: cover; /* Dopasuj obrazek, aby wypełnił cały kontener, zachowując proporcje */
+  background-position: center; /* Wycentruj obrazek wewnątrz kontenera */
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+   
+  }
+  
+legend{
+    background-color: white ;
+    height: 100px;
+    padding-top: 50px;
+}
+.odin {
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    opacity: 50%;
+    background-color: black;
+    text-align: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center left;
+    position: relative;
+    top: 20%;
+    color:white;
+    font-size: 72px;
+    text-align: center;
+    padding-top:20px;
+    padding-left: 45%;
+
+}
+
+.picO{
+    background-image: url('odin-lined.png');
+    height: inherit;
+    width: inherit;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -65%;
+    right: 20%;
+}
+button:hover{
+    background-color: darkgreen;
+}
+input:focus{
+    border:3px solid blue;
+}
